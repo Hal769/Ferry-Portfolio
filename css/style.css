@@ -1,0 +1,303 @@
+
+body {
+   font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;   
+    margin-top: 40px;
+    line-height:16px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+      font-family:'Merriweather';
+      font-weight: 800; /* Adjust to make it bolder (500 is medium, 700+ is bold) */
+      font-style: italic; /* Adds the italic style */
+      line-height: 45px; /* Retain the existing line height */
+   
+}
+
+h1 {
+    color:#11B674;
+    font-weight: 700;
+}
+.text-center {
+    text-align: center; 
+}
+
+.main-top-margin {
+     margin-top: 75px;
+}
+.main-low-margin {
+     margin-top: 55px;
+}
+
+a,a:hover {
+    text-decoration:none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.img-margin-product {
+    margin-top:30px;
+}
+.bottam-pad {
+     padding-bottom:40px;
+}
+.text-justify {
+    text-align:justify;
+}
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+    color:#ff0000;
+}
+
+.color-green {
+    color:#07BB00;
+}
+
+.color-light-blue {
+    color:#BB00BB;
+}
+
+.color-blue {
+    color:#0052FF;
+}
+.color-brown {
+    color:#EB8F2D;
+}
+.color-black {
+    color:#000000;
+}
+
+/* ==========================================================================
+   HEADER SECTION
+   ========================================================================== */
+
+#header-section {
+	background: url(../img/bg.jpg) no-repeat center top;
+	margin-top: -20px;
+	padding-top:20px;
+	text-align:center;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header-section h1 {
+    white-space: nowrap; 
+	margin-top: 120px;
+	color: white;
+	font-size: 63px;
+	font-weight: 900;
+	letter-spacing: 4px;
+    line-height:70px;
+}
+
+#header-section h2 {
+    white-space: nowrap; 
+	color: white;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 4px;
+}
+.down-icon {
+     color:white;
+    font-weight:900;
+}
+/* ==========================================================================
+   ABOUT SECTION
+   ========================================================================== */
+
+#about-section {
+    background-color: #FAFAFA;
+   
+}
+
+
+/*==========================================
+   SOCIAL ICON STYLES
+    =====================================================*/
+
+.color-facebook {
+    color:#3B5998;
+}
+.color-twitter {
+     color:#00aced;
+}
+.color-google-plus {
+     color:#dd4b39;
+}
+.color-linkedin {
+     color:#007bb6;
+}
+.color-pinterest {
+     color:#cb2027;
+}
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+  /* Navbar Styling */
+.navbar {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures proper alignment of left and right elements */
+}
+
+/* Menu and Brand Container (Left Side) */
+.menu-brand-container { 
+    position: absolute; 
+    top: 10px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+    display: flex;
+    align-items: center;
+}
+/* Hamburger Icon */
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    margin-right: 10px; /* Adds spacing between the icon and the brand */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar Links (Right Side) */
+.navbar-collapse {
+    display: flex;
+    margin-left: 700px; /* Adjust the distance from the brand */
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav .profile-img img {
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px; /* Adds spacing between CONTACT and the image */
+}
+
+
+.navbar-nav li {
+    margin: 0 10px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.navbar-nav li a:hover {
+    background: none !important; /* Removes any background color */
+    color: #007bb6;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #111;
+    padding-top: 60px;
+    transition: 0.3s;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    color: #007bb6;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* ==========================================================================
+   CONTACT SECTION
+   ========================================================================== */
+
+#contact-section {
+    background-color: #FAFAFA;
+}
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+   
+
+#footer {
+    background-color: #2F11C4; 
+    color: #fff; 
+    text-align: right; 
+    padding: 10px 30px 10px 30px;
+}
+
+
