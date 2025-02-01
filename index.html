@@ -1,321 +1,445 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
-<!--<![endif]-->
-<!-- HEAD SECTION -->
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!--[if IE]>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <![endif]-->
-    <title>Bootstrap Personal Portfolio Template For Free by Binary Theme</title>
-    <!--GOOGLE FONT -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <!--BOOTSTRAP MAIN STYLES -->
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <!--FONTAWESOME MAIN STYLE -->
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <!--CUSTOM STYLE -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Meyawo landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Ferry_E-Portfolio</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+	<link rel="stylesheet" href="assets/css/meyawo.css">
 </head>
-    <!--END HEAD SECTION -->
-<body>   
-     <!-- NAV SECTION -->
-<!-- NAV SECTION -->
-<div class="navbar">
-    <div class="container">
-        <div class="menu-brand-container">
-            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-            <a class="navbar-brand" href="#">HAL DAVID FERRY</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#header-section">HOME</a></li>
-                <li><a href="#about-section">PROJECTS</a></li>
-                <li><a href="#products-section">TESTIMONIALS</a></li>
-                <li><a href="#contact-section">CONTACTS</a></li>
-                <li class="profile-img">
-                    <img src="img/dp.jpg" alt="Profile">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">E-Portfolio</a>         
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
                 </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#blog">Courses</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#testmonial">Testimonials</a>
+                </li>
+                
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <!--li class="item ml-md-3">
+                    <a href="components.html" class="btn btn-primary">Components</a>
+                </li-->
             </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>          
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <div class="content-wrapper">
+                <img src="hal2.png" class="profile-img" alt="alt">
+                <div class="text-content">
+                    <h1 class="header-title">
+                        <span class="up">Hi!</span>
+                        <span class="down">I am</span>
+                        <span class="down">Hal David Ferry</span>
+                    </h1>
+                    <p class="header-subtitle">DATA ANALYST</p>
+                    <!--button class="btn btn-primary">Visit My Works</button-->
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+    </header>
+
+    <section class="section-sm bg-primary py-5">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="text-light display-5 fw-bold">BACKGROUND INFORMATION</h2>
+                    <hr class="divider bg-light mx-auto" style="width: 50px; height: 3px; border-radius: 5px;">
+                    <p class="text-light fs-5">Check out my portfolio and projects below.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/dp.jpg" class="about-img" alt="img">
+                </div>
+                <div class="about-caption">
+                    
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        "Hi, I'm Hal David F. Ferry, currently residing at South Legacy Homes, BF International, Las Piñas City, a B.S. in Information Technology graduate from Southville International School and Colleges. As a data analyst, I specialize in transforming raw data into actionable insights that drive business decisions. 
+                        <br>With a strong foundation in data analysis, statistical modeling, and data visualization, I am passionate about using data to solve complex problems and support organizational growth. I am committed to continuous learning and exploring new analytical tools to deliver valuable insights in a fast-evolving tech landscape."              
+                    </p>
+                    <a href="Ferry_CV.pdf" download="Ferry_CV.pdf">
+                        <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    </a>
+                </div>              
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- service section -->
+    <section class="section" id="service">
+        <div class="container text-center">
+            <!--p class="section-subtitle">"What I Do" ?</p--><br>
+            <h6 class="section-title mb-6">Qualifications</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">SQL & Database Management</h6><br>
+                            <br>
+                            <br>
+                            <p class="subtitle">Proficient in SQL querying, database management (MySQL, PostgreSQL, SQL Server), and data optimization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Front-End Development</h6>
+                            <p class="subtitle"> Proficient in HTML, CSS, JavaScript, and modern frameworks like JQuery and React.js for responsive and interactive UI/UX.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Mobile App Development</h6>
+                            <p class="subtitle">Proficient in Java for building native Android applications using Android Studio, adhering to best practices and utilizing Android's core features.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
+                            <h6 class="title">Data Visualization & Reporting</h6><br>
+                            <br>
+                            <p class="subtitle">Experienced in creating interactive dashboards and reports using Power BI and Excel to present data-driven insights.</p>
+                        </div>
+                    </div>
+                </div>  
+            </div><!-- end of row -->
+        </div>
+    </section><!-- end of service section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <!--p class="section-subtitle">What I Did ?</p--><br>
+            <br>
+            <br>
+            <h6 class="section-title mb-6">Portfolio</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="resume.html" class="portfolio-card">
+                        <img src="assets/imgs/res.jpg" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>RESUME</h5>
+                                
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
 
 
-<!-- Sidebar Navigation Menu -->
-<div id="sidebar" class="sidebar">
-    <button class="close-btn" id="close-menu">&times;</button>
-    <ul>
-        <li><a href="#">Introduction about Myself</a></li>
-        <li><a href="#">Educational Background</a></li>
-        <li><a href="#">Work Experience</a></li>
-    </ul>
-</div>
+                <div class="col-md-4">
+                    <a href="projects.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/res1.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>PROJECTS</h5>
+                                <!--p class="font-weight-normal">Category: Web Templates</p-->
+                            </span>                         
+                        </span>                         
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="certificates.html" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/res5.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>CERTIFICATES</h5>
+                                <!--p class="font-weight-normal">Category: Web Templates</p-->
+                            </span>                         
+                        </span>                     
+                    </a>
+                </div>
+            </div><!-- end of row -->
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
 
-    <!-- JavaScript -->
+    <!-- pricing section 
+    <section class="section" id="pricing">
+        <div class="container text-center">
+            <p class="section-subtitle">How Much I Charge ?</p>
+            <h6 class="section-title mb-6">My Pricing</h6>
+            <!-- row -
+            <div class="pricing-wrapper">
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Free</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p><i class="ti-close"></i></p>
+                            <p><i class="ti-close"></i></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>0.00/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Basic</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p><i class="ti-close"></i></p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>9.99/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-card-header">
+                        <img class="pricing-card-icon" src="assets/imgs/startup.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    </div>
+                    <div class="pricing-card-body">
+                        <h6 class="pricing-card-title">Premium</h6>
+                        <div class="pricing-card-list">
+                            <p>accusamus reprehenderit</p>
+                            <p>provident dolorem </p>
+                            <p>quos neque</p>
+                            <p>fugiat quibusdam</p>
+                            <p>accusamus laboriosam</p>
+                            <p>inventore omnis</p>
+                        </div>
+                    </div>
+                    <div class="pricing-card-footer">
+                        <span>$</span>
+                        <span>99.9/Month</span>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
+                </div>
+
+            </div> end of pricing wrapper 
+        </div>  end of container 
+    </section>< end of pricing section -->
+
+    <!-- section -->
+   
+
+      <!-- blog section -->
+      <section class="section" id="blog">
+        <!-- container -->
+        <div class="container text-center">
+            <!--p class="section-subtitle">Recent Posts?</p--><br>
+            <br>
+            <br>
+            <h6 class="section-title mb-6">Courses</h6>
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/c1.png" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">Computer Networking - Digital Network Security</h6>
+
+                    <p class="blog-card-caption">
+                        <a href="#">By: Alison Online Courses</a>
+                        <a href="#"><i class="ti-heart text-danger"></i> 1004</a>
+                        <a href="#"><i class="ti-comment"></i> 268</a>
+                    </p>
+                    <p>In this free training course, gain a better understanding of network architecture, protocols and digital security.</p>
+
+                    <p><b>This free online digital security training in computer networking focuses on digital network security.</b></p>
+                    <p>Global connectivity is a part of modern life, so it is easy to forget the dangers associated with connectivity, as data stored in cyberspace is vulnerable to data theft. This makes network security skills invaluable. Learn the basics of network architecture, security management and protocols used in modern network security practices.</p>
+
+                    <a href="c5.html" class="blog-card-link">See my certificate <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+            <!-- blog-wrapper -->
+            <div class="blog-card">
+                <div class="blog-card-header">
+                    <img src="assets/imgs/c4.png" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                </div>
+                <div class="blog-card-body">
+                    <h5 class="blog-card-title">A Brief Guide to Cyber Security</h6>
+
+                    <p class="blog-card-caption">
+                        <a href="#">By: Great Learning Online Courses</a>
+                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>
+                        <a href="#"><i class="ti-comment"></i> 264</a>
+                    </p>
+                    
+                    <p><b>Learn how to prevent, detect and react to a cyber attack to protect data in this free online cyber security course.</b></p>
+                    <p>Cyber security has gained more prominence as colossal breaches make headlines and threaten information across the globe. Almost all cases are due to human errors like clicking on an attachment and installing malware or revealing sensitive information to hackers. However, being aware of cyber attack tactics and techniques can dramatically reduce the chances of a data breach. This cyber security training course explains how to prevent such attacks.</p>
+
+
+                    <a href="c2.html" class="blog-card-link">See my certificate <i class="ti-angle-double-right"></i></a>
+                </div>
+            </div><!-- end of blog wrapper -->
+
+        </div><!-- end of container -->
+    </section><!-- end of blog section -->
+
+    
+
+    <!-- testimonial section -->
+    <section class="section" id="testmonial">
+        <div class="container text-center">
+            <!--p class="section-subtitle">What Others Think About Me ?</p--><br>
+            <br>
+            <br>
+            <h6 class="section-title mb-6">Testimonial</h6>
+
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="assets/imgs/roy.png" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                           
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"Hal maybe a quiet person and might seem to be not friendly but he is quite the opposite. He has lots of things to share and ideas to give. He is also diligent in working as a student assistant in the MIS department. He is rarely absent as well that means he takes care of himself. As a student, he is active in participating in class through submissions in the moodle and meeting deadlines."</p>
+                            <h6 class="testimonial-card-title">Roy Mark Recomendable </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card-img-holder">
+                            <img src="assets/imgs/rose.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                        
+                        </div>
+                        <div class="testimonial-card-body">
+                            <p class="testimonial-card-subtitle">"David was my student in my class at ISM last year. Initially, I thought he was a very shy and quiet person. However, when he became a student assistant in Munich, regularly assisting in my AI-ICT class, I got to know him better. I'm personally thankful for him. He was a truly reliable assistant, always trying his best to patiently address the concerns of my students, even when there were many at once. I also appreciate his diligence in his studies. Keep doing your best, David!"</p>
+                            <h6 class="testimonial-card-title">Rosevelita Tumayan</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+    </section> <!-- end of testimonial section -->
+    
+  
+    <!-- contact section -->
+    <section class="section" id="contact"> 
+        <div class="container text-center">
+            <h6 class="section-title mb-5">Contact Me</h6>
+            <form id="contact-form" class="contact-form col-md-10 col-lg-8 m-auto" onsubmit="sendEmail(event)">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>                 
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" name="email" class="form-control" placeholder="Enter Email" required>                 
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="message" rows="6" class="form-control" placeholder="Write Something" required></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                    </div>
+                </div>  
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            const menuToggle = document.getElementById("menu-toggle");
-            const closeMenu = document.getElementById("close-menu");
-            const sidebar = document.getElementById("sidebar");
-
-            menuToggle.addEventListener("click", function () {
-                sidebar.style.left = "0";
-            });
-
-            closeMenu.addEventListener("click", function () {
-                sidebar.style.left = "-250px";
-            });
+            emailjs.init("bZFxV0TDgXQwlfsKn"); // Replace with your EmailJS Public Key
         });
+
+        function sendEmail(event) {
+            event.preventDefault(); // Prevent form submission refresh
+
+            emailjs.sendForm("service_xr0t1ws", "template_zuy58bn", event.target)
+                .then(function () {
+                    alert("Message sent successfully!");
+                    document.getElementById("contact-form").reset(); // Reset form after sending
+                })
+                .catch(function (error) {
+                    alert("Failed to send message. Please try again.");
+                    console.error("EmailJS Error:", error);
+                });
+        }
     </script>
 
-     <!--END NAV SECTION -->
-     <!-- HEADER SECTION -->
-    <div id="header-section">
-        <div class="container">
-            <div class="row centered">
-                <div class="col-md-8 col-md-offset-2">
-                    <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> 
-                    <h1><strong> E-Portfolio of Hal David</strong><br />
-                        <strong >Ferry</strong></h1>
-                     <br /> 
-                    <h2> BSIT3 Student / Library Student Assistant</h2>
-                     <br />
-                  <a href="#about-section">  <i class="fa fa-angle-double-down fa-5x down-icon"></i> </a>
-                </div>
+    <!-- footer -->
+    <div class="container"> 
+        <footer class="footer">       
+            <p class="mb-0">Phone Number: +639304739574 </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="https://github.com/Hal769" class="link" target="_blank"><i class="ti-github"></i></a>
+                <a href="https://www.fiverr.com/hal_david" class="link" target="_blank"><i class="ti-briefcase"></i></a>
+                <a href="https://www.linkedin.com/in/hal-david-ferry-21649034a" class="link" target="_blank"><i class="ti-linkedin"></i></a>
             </div>
-           
-        </div>
-       
-    </div> 
-      <!--END HEADER SECTION -->
-    <!--ABOUT SECTION -->
-    <div id="about-section" >
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Projects</h1>
-                    <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row main-low-margin text-center">
-                <div class="col-md-3 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <img class="img-circle" src="img/team/user1.jpg" alt="">
-                    <h4><strong>Hal David Ferry</strong> </h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. 
+        </footer>
+    </div> <!-- end of page footer -->
+    
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
 
-                    </p>
-                    <p>
-                      
-                        <a href="#"><i class="fa fa-gmail-square fa-2x color-google-plus"></i></a>
-                        <a href="#"><i class="fa fa-linkedin-square fa-2x color-linkedin"></i></a>
-                       
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-                    </p>
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
 
-                </div>
-             
-                <div class="col-md-7 col-sm-7 col-md-offset-1  text-justify" data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h3> Lorem ipsum dolor sit amet Riopsh</h3>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
-                    </p>
-                    <p>
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-
-                    </p>
-                </div>
-            </div>
-              <!-- ./ Row Content-->
-        </div>
-    </div>
-    <!-- END ABOUT SECTION -->
-   
-   
-    <!--WORK/PRODUCTS SECTION -->
-    <div id="products-section" >
-         <div class="container" >
-            <div class="row main-top-margin text-center" data-scrollreveal="enter top and move 100px, wait 0.3s">
-                <div class="col-md-8 col-md-offset-2 ">
-                    <h1>Testimonials</h1>
-                    <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h4>
-                </div>
-            </div>
-             <!-- ./ Main Heading-->
-             <hr />
-            <div class="row main-low-margin" >
-                <div class="col-md-10  col-md-offset-1 ">
- <div class="col-md-4 col-sm-4" data-scrollreveal="enter left and move 100px, wait 0.8s">
-                    <img src="product/prd1.png" alt="">
-                </div>
-                <div class="col-md-8 " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Person # 1 </strong></h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                   
-                </div>
-                </div>
-               
-            </div>
-            <!-- ./ Row Content-->
-            <hr />
-           <div class="row main-low-margin bottam-pad" >
-
-                 <div class="col-md-10  col-md-offset-1 ">
-                <div class="col-md-8 " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                    <h4 >  <strong class="color-red">Person # 2 </strong></h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </p>
-
-                </div>
-                     </div>
-            </div>
-              <!-- ./ Row Content-->
-        </div>
-    </div>
-    <!--END WORK/PRODUCTS SECTION -->
-    <!--CONTACT SECTION -->
-    <div id="contact-section">
-        <div class="container" >
-            <div class="row main-top-margin text-center">
-                <div class="col-md-8 col-md-offset-2 " data-scrollreveal="enter top and move 100px, wait 0.3s">
-                    <h1>Contacts</h1>
-                    <h4>
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
-                    </h4>
-                </div>
-            </div>
-            <!-- ./ Main Heading-->
-            <div class="row">
-                <div class="col-md-12  col-sm-12 ">
-                    <div class="col-md-6  " data-scrollreveal="enter left and move 100px, wait 0.4s">
-                        <h3> My Work Location</h3>
-                        <hr />
-                        <p>
-                        103, Rola Street,<br />
-                            Demo Lane Road,<br />
-                            New York, USA.<br />                          
-                        Call: +23-00-89-009<br />
-                        Email: demo@yourdomain.com<br />
-                            </p>
-                       
-                    </div>
-                    <div class="col-md-6  " data-scrollreveal="enter right and move 100px, wait 0.4s">
-                        <h3>Drop a Line or Hire Me </h3>
-                        <hr />
-                        <form>
-                            <div class="row">
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-                              <div class="row">
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" required="required" placeholder="Subject">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 ">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control"  placeholder="Ref. (IF any)">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 ">
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" required="required" class="form-control" rows="3"  placeholder="Message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-primary">Submit Request</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    
-                </div>
-            </div>
-             <!-- ./ Row Content-->
-        </div>
-    </div>  
-    <!--END CONTACT SECTION --> 
-    <!--FOOTER SECTION -->
-    <div id="footer">
-        <div class="container">
-            <div class="row ">
-                &copy; 2025 | All Right Reserved 				
-		
-            </div>
-            
-        </div>
-       
-    </div>  
-    <!--END FOOTER SECTION --> 
-    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
-    <!-- CORE JQUERY LIBRARY -->
-    <script src="js/jquery.js"></script>
-    <!-- CORE BOOTSTRAP LIBRARY -->
-    <script src="js/bootstrap.min.js"></script>
-     <!-- SCROLL REVEL LIBRARY FOR SCROLLING ANIMATIONS-->
-    <script src="/js/scrollReveal.js"></script>
-       <!-- CUSTOM SCRIPT-->
-    <script src="/js/custom.js"></script>
 </body>
 </html>
