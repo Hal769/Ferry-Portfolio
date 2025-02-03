@@ -12134,7 +12134,7 @@ pre .code {
 
 .section .section-title {
   font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
-  margin-top: -50px;
+  margin-top: 10px;
 }
 
 .section .section-subtitle {
