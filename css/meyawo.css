@@ -12129,12 +12129,12 @@ pre .code {
 .section {
   padding-top: 50px;
   padding: 40px 10px;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .section .section-title {
   font-size: calc(20px + (35 - 20) * ((100vw - 300px) / (1300 - 300)));
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 .section .section-subtitle {
